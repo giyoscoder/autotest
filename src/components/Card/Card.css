@@ -1,0 +1,63 @@
+.card {
+  width: 100%;
+  height: 250px;
+  border-radius: 12px;
+  background-image: url("https://avtotest.uz/static/media/shape.92b442375f3502a5f2a2.svg");
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  /* margin-top: 150px; */
+  /* background-color: rgba(0, 0, 255, 0.466); */
+  transition: 0.5s;
+}
+
+.card.grey {
+  background-color: rgba(128, 128, 128, 0.71);
+}
+
+.card.grey:hover {
+  transform: scale(1.03);
+}
+.card.yellow {
+  background-color: rgba(255, 213, 0, 0.632);
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.card.green {
+  background-color: rgba(0, 47, 255, 0.632);
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.card.orange {
+  background-color: orange;
+  opacity: 0.5;
+  cursor: not-allowed;
+
+}
+
+.card.plur {
+  background-color: purple;
+  opacity: 0.5;
+  cursor: not-allowed;
+
+}
+
+.card p {
+  font-size: 35px;
+  font-family: sans-serif;
+  color: black;
+  /* font-style: italic; */
+  padding-left: 30px;
+  padding-top: 70px;
+}
+
+.card p.work {
+  text-decoration: line-through;
+  /* color:red */
+  /* display: none; */
+}

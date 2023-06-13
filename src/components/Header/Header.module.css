@@ -1,0 +1,24 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    width: 100%;
+    background-color: rgb(70,77,92);
+    padding: 8px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 500px; */
+    
+}
+
+.header img {
+    width: 100px;
+}
+
+.header p {
+    color: #fff;
+    font-size: 25px;
+    font-family: Satisfy;
+}

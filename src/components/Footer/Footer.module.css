@@ -1,0 +1,29 @@
+.footer {
+  background-color: rgb(70, 77, 92);
+  margin-top: 50px;
+  color: #fff;
+  padding: 25px 5%;
+  font-family: sans-serif;
+}
+
+.afterFooter {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.footer h4 {
+  padding-bottom: 15px;
+  font-size: 22px;
+}
+
+.footer ul li {
+  line-height: 30px;
+  list-style: none;
+}
+
+.last{
+    padding: 50px 0 10px 0;
+    text-align: center;
+    font-size: 25px;
+}
